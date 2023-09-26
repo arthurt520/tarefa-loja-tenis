@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de tenis</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand">Loja de calçados</h1>
+            <nav class="justify-content-end" id="">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item"><a href="#sobre-a-loja" class="nav-link active">Sobre a loja</a></li>
+                    <li class="nav-item"><a href="#unidades" class="nav-link">Unidades</a></li>
+                    <li class="nav-item"><a href="#catalogo" class="nav-link">Catalogo</a></li>
+                    <li class="nav-item"><a href="#formulario" class="nav-link">Fale conosco</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll">
+        <section id="sobre-a-loja">
+            <div class="carousel slide"  data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner mb-5">
+                    <div data-bs-interval="1000" class="carousel-item active" >
+                        <img src="img/nike-5418992_1920.jpg" alt="">
+                    </div>
+                    <div  data-bs-interval="1000" class="carousel-item">
+                        <img src="img/feet-1842328_1920.jpg" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="1000">
+                        <img src="img/footwear-5408643_1920.jpg" alt="">
+                    </div>
+                    <button type="button" class="carousel-control-prev" data-bs-target="#carousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button type="button" class="carousel-control-next" data-bs-target="#carousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+                <div>
+                    <div class="container" id="sobre-a-loja">
+                        <div class="row mb-5">
+                            <div class="col-md-6">
+                                <img src="img/sobre-loja.png" class="w-100 p-10"  alt="">
+                            </div>
+                            <div class="col-md-6">
+                                <h2>Sobre a loja</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius adipisci facere expedita minima accusamus laudantium quae porro rerum nisi? Illo numquam, quas officiis quam magni quisquam dolorem reiciendis dolore. Perspiciatis!</p>
+                                <h2>Sobre o espaço</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius adipisci facere expedita minima accusamus laudantium quae porro rerum nisi? Illo numquam, quas officiis quam magni quisquam dolorem reiciendis dolore. Perspiciatis!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section id="unidades">
+            <div class="container">
+                    <div class="row">
+                        <h2 class="text-center mb-4">Unidades no Brasil</h2>
+                    </div>
+                    <div class="row mb-4">
+                        <div class="col-md-4">
+                            <img src="img/loja-sp.jpg" class="w-100 mb-2" alt="">
+                            <h3 class="mb-3">São Paulo</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores ipsam tenetur mollitia error nihil ut aliquid totam dolore veniam rem dicta ullam eaque iure, velit explicabo odio aperiam impedit perferendis!</p>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="img/loja-rj.jpg" class="w-100 mb-2" alt="">
+                            <h3 class="mb-3">Rio de Janeiro</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores ipsam tenetur mollitia error nihil ut aliquid totam dolore veniam rem dicta ullam eaque iure, velit explicabo odio aperiam impedit perferendis!</p>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="img/loja-mg.jpeg" class="w-100 mb-2" alt="">
+                            <h3 class="mb-3">Minas Gerais</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores ipsam tenetur mollitia error nihil ut aliquid totam dolore veniam rem dicta ullam eaque iure, velit explicabo odio aperiam impedit perferendis!</p>
+                        </div>
+                    </div>
+            </div>
+        </section>
+        <section id="catalogo">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-center p-4">Nossos calçados</h2>
+                </div>
+                <div class="row">
+                        <aside class="col-md-2">
+                            <nav class="nav nav-pills flex-column nav-cardapio">
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#tenis" class="fw-bold text-start nav-link active">Tenis</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#sandalias" class="fw-bold text-start nav-link">Sandalias</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#chinelos" class="fw-bold text-start nav-link">Chinelos</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#botas" class="fw-bold text-start nav-link">Botas</button>
+                            </nav>
+                        </aside>
+                        <div class="col-md-10">
+                            <div class="tab-content">
+                            
+                                <div class="tab-pane active" id="tenis">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="img/catalogo/adidas1.jpg" alt="adidas 1">
+                                            <h5 class=" fw-bold mt-2">Adidas branco e dourado</h5>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum tempore perspiciatis voluptate ab adipisci nam natus dignissimos fugiat nemo vel ratione amet laborum odit, cupiditate, reprehenderit, ad accusantium fuga aliquam!</p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="img/catalogo/adidas2.jpg" alt="adidas2">
+                                            <h5 class=" fw-bold mt-2">Adidas Preto</h5>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum tempore perspiciatis voluptate ab adipisci nam natus dignissimos fugiat nemo vel ratione amet laborum odit, cupiditate, reprehenderit, ad accusantium fuga aliquam!</p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="img/catalogo/adidas3.jpg" alt="adidas3">
+                                            <h5 class=" fw-bold mt-2">Adidas roxa</h5>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum tempore perspiciatis voluptate ab adipisci nam natus dignissimos fugiat nemo vel ratione amet laborum odit, cupiditate, reprehenderit, ad accusantium fuga aliquam!</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="sandalias">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="img/catalogo/sandalia1.jpg" alt="sandalia1">
+                                            <h5 class="text-colored fw-bold mt-2">Sandalia laranja e preta</h5>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum tempore perspiciatis voluptate ab adipisci nam natus dignissimos fugiat nemo vel ratione amet laborum odit, cupiditate, reprehenderit, ad accusantium fuga aliquam!</p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="img/catalogo/sandalia2.jpg" alt="sandalia2">
+                                            <h5 class="text-colored fw-bold mt-2">Sandalia sol</h5>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum tempore perspiciatis voluptate ab adipisci nam natus dignissimos fugiat nemo vel ratione amet laborum odit, cupiditate, reprehenderit, ad accusantium fuga aliquam!</p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="img/catalogo/sandalia3.jpg" alt="sandalia3">
+                                            <h5 class="text-colored fw-bold mt-2">Sandalia Verão</h5>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum tempore perspiciatis voluptate ab adipisci nam natus dignissimos fugiat nemo vel ratione amet laborum odit, cupiditate, reprehenderit, ad accusantium fuga aliquam!</p>
+                                        </div>  
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="chinelos">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="img/catalogo/chinelo1.jpg" alt="chinelo1">
+                                            <h5 class="text-colored fw-bold mt-2">Chinelo preto</h5>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum tempore perspiciatis voluptate ab adipisci nam natus dignissimos fugiat nemo vel ratione amet laborum odit, cupiditate, reprehenderit, ad accusantium fuga aliquam!</p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="img/catalogo/chinelo2.jpg" alt="chinelo2">
+                                            <h5 class=" fw-bold mt-2">Chinelo Verde</h5>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum tempore perspiciatis voluptate ab adipisci nam natus dignissimos fugiat nemo vel ratione amet laborum odit, cupiditate, reprehenderit, ad accusantium fuga aliquam!</p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="img/catalogo/chinelo3.jpg" alt="chinelo3">
+                                            <h5 class=" fw-bold mt-2">Chinelo preto com vermelho</h5>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum tempore perspiciatis voluptate ab adipisci nam natus dignissimos fugiat nemo vel ratione amet laborum odit, cupiditate, reprehenderit, ad accusantium fuga aliquam!</p>
+                                        </div>  
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="botas">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="img/catalogo/bota1.jpg" alt="bota1">
+                                            <h5 class=" fw-bold mt-2">Chinelo preto</h5>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum tempore perspiciatis voluptate ab adipisci nam natus dignissimos fugiat nemo vel ratione amet laborum odit, cupiditate, reprehenderit, ad accusantium fuga aliquam!</p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="img/catalogo/bota2.jpg" alt="bota2">
+                                            <h5 class=" fw-bold mt-2">Chinelo Verde</h5>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum tempore perspiciatis voluptate ab adipisci nam natus dignissimos fugiat nemo vel ratione amet laborum odit, cupiditate, reprehenderit, ad accusantium fuga aliquam!</p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="img/catalogo/bota3.jpg" alt="bota3">
+                                            <h5 class=" fw-bold mt-2">Chinelo preto com vermelho</h5>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum tempore perspiciatis voluptate ab adipisci nam natus dignissimos fugiat nemo vel ratione amet laborum odit, cupiditate, reprehenderit, ad accusantium fuga aliquam!</p>
+                                        </div>  
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+            <section id="formulario">
+                <div class="container">
+                    <div class="row m-5">
+                        <h2 class="section-title text-center">
+                            Fale <span class="">Conosco</span>
+                        </h2>
+                    </div>
+                    <div class="row mb-5">
+                        <div class="col-md-7">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="nome" class="form-label fw-bold ">Seu nome</label>
+                                    <input type="text" id="nome" class="form-control" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label fw-bold ">Seu e-mail</label>
+                                    <input type="email" id="email" class="form-control" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="telefone" class="form-label fw-bold ">Seu Telefone (opcional)</label>
+                                    <input type="tel" id="telefone" class="form-control" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="mensagem" class="form-label fw-bold">Sua mensagem</label>
+                                    <textarea class="form-control" id="mensagem"></textarea>
+                                </div>
+                                <button type="submit" class="btn fw-bold btn-success">Enviar</button>
+                            </form>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="row mt-4">
+                                <h3 class="section-title fs-4">
+                                    <i class="bi bi-cursor-fill"></i>
+                                    Endereço
+                                </h3>
+                                <p>
+                                    SEDE: Rua tenis do sol N 1875, Bairro Vila Almeida - São Paulo - SP.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <footer class="text-center p-2">
+            &copy;Todos os direitos reservados 2023
+        </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

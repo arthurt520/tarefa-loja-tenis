@@ -1,0 +1,38 @@
+#cabecalho{
+    background-color: rgb(80, 80, 100);
+    position:fixed;
+    top:0;
+    left:0;
+    right: 0;
+    z-index: 1;
+}
+
+#cabecalho .nav-link.active{
+    background-color:rgb(228, 226, 226);
+    color:black;
+    font-weight:700;
+}
+#cabecalho h1{
+    color:white;
+}
+#cabecalho .nav-link{
+    color:white;
+    font-weight:700;
+}
+
+#catalogo{
+    background-color: rgb(228, 226, 226);
+}
+#catalogo button{
+    color:black;
+}
+#catalogo .nav-link.active{
+    background-color:gray;
+}
+#carousel{
+    background-color:rgb(228, 226, 226);
+}
+footer{
+    background-color: rgb(80, 80, 100);
+    color:white;
+}
